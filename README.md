@@ -22,6 +22,25 @@
 
 ## Descriptions of this repository
 
+1. codes
+   - [Dataset.py]: 
+   - [Generate_PLM_embeddings.py]: 
+   - [Metrics.py]: 
+   - [Model.py]: 
+   - [PlantPTM.py]: 
+   - [Predict.py]: 
+   - [Threshold.py]: 
+
+3. data
+   - [fasta]: 
+   - [pssm]: 
+
+4. model
+   - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
+    
+5. case study
+   - [case study]
+
 ## Citation
 
 ## License
