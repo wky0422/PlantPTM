@@ -46,8 +46,8 @@ The Prediction Decoder Module operates on the fused feature representation throu
    - [Threshold.txt](https://github.com/wky0422/PlantPTM/blob/main/codes/Threshold.txt): for predicting using PlantPTM with different model thresholds
 
 3. data
-   - [fasta]: PTMs dataset clustered with 30% identity
-   - [pssm]: compressed file for storing PSSM feature files corresponding to each protein
+   - [fasta](https://github.com/wky0422/PlantPTM/tree/main/data/fasta): PTMs dataset clustered with 30% identity
+   - [pssm](https://github.com/wky0422/PlantPTM/tree/main/data/pssm): compressed file for storing PSSM feature files corresponding to each protein
 
 4. model
    - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
