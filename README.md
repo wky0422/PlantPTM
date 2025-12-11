@@ -1,4 +1,4 @@
-# <p align="center">PlantPTM <img src="images/logo.png" width="40" style="vertical-align: middle;"></p>
+# <p align="center">PlantPTM<img src="images/logo.png" width="40" align="middle"></p>
 
 >This is a repository containing source code for paper titled "PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models".
 
@@ -46,8 +46,8 @@ The Prediction Decoder Module operates on the fused feature representation throu
    - [Threshold.py]: for predicting using PlantPTM with different model thresholds
 
 3. data
-   - [fasta]: 
-   - [pssm]: 
+   - [fasta]: PTMs dataset clustered with 30% identity
+   - [pssm]: compressed file for storing PSSM feature files corresponding to each protein
 
 4. model
    - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
