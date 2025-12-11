@@ -8,6 +8,8 @@ Post-translational modifications (PTMs) function as molecular switches that play
 
 ## PlantPTM method
 
+### Model architecture
+
 In this work, we propose PlantPTM, a deep learning framework that integrates protein language models with a diverse set of sequence-derived features. The architecture of PlantPTM consists of three core components: 
 
 (i) a multi-encoder module incorporating integration
@@ -23,8 +25,6 @@ The Feature Fusion Module is designed to intelligently integrate multi-modal fea
 The Prediction Decoder Module operates on the fused feature representation through a sequential three-layer fully connected architecture.
 
 ![PlantPTM overall framework](./images/PlantPTM.png)
-
-### Model architecture
 
 ### Requirements
 
