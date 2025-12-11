@@ -22,6 +22,8 @@ The Feature Fusion Module is designed to intelligently integrate multi-modal fea
 
 The Prediction Decoder Module operates on the fused feature representation through a sequential three-layer fully connected architecture.
 
+![PlantPTM overall framework](./images/PlantPTM.png)
+
 ### Model architecture
 
 ### Requirements
