@@ -1,0 +1,10 @@
+learning_rate=0.0005
+weight_decay=5e-05
+batch=32
+emd_dim=64
+hidden_dim=128
+out_dim=128
+kernel_size=5
+gru_nlayer=1
+dropout=0.4
+encoder=cnn,gru,fea,plm
