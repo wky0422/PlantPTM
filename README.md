@@ -60,6 +60,32 @@ The Prediction Decoder Module operates on the fused feature representation throu
 
 ## Citation
 
+If you find PlantPTM helpful in your study, please kindly cite the following [paper ]():
+
+*[APA]*
+
+Dou, G., Wang, K., … Chen, Z. (2025). PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models. *bioRxiv.org*, ×, ×. doi:×××
+
+or
+
+BibTeX entry:
+
+```bibtex
+@article{Wang,
+title = {PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models},
+journal = {*bioRxiv.org*},
+volume = {×},
+pages = {×},
+year = {×},
+issn = {×},
+doi = {×××},
+url = {×××},
+author = {Gensheng Dou and Kaiyuan Wang and ... and Zhen Chen},
+keywords = {},
+abstract = {}
+}
+```
+
 ## License
 
 This repository is licensed under the terms of the **Apache 2.0** [license](https://github.com/wky0422/PlantPTM/blob/main/LICENSE).
