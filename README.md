@@ -53,6 +53,7 @@ The Prediction Decoder Module operates on the fused feature representation throu
    - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
     
 5. case study on GPA1
+
 We predicted all potential pho sites of G α (GPA1) in Arabidopsis G protein using PlantPTM, and further utilized AlphaFold3 to perform structural predictions for Gα-Gβ-Gγ based on experimentally-verified phosphorylation sites in the Gα subunit, displaying the C-terminal domain of all potential phosphorylation sites.
 ![GPA1](./images/GPA1.png)
 
