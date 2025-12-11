@@ -1,4 +1,4 @@
-# <p align="center">PlantPTM <img src="images/logo.png" width="25"></p>
+# <p align="center">PlantPTM <img src="images/logo.png" width="40" style="vertical-align: middle;"></p>
 
 >This is a repository containing source code for paper titled "PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models".
 
@@ -43,7 +43,7 @@ The Prediction Decoder Module operates on the fused feature representation throu
    - [Model.py]: PyTorch-version PlantPTM model
    - [PlantPTM.py]: for PlantPTM training
    - [Predict.py]: for predicting PTMs using PlantPTM
-   - [Threshold.py]: 
+   - [Threshold.py]: for predicting using PlantPTM with different model thresholds
 
 3. data
    - [fasta]: 
