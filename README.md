@@ -1,8 +1,4 @@
-# ![PlantPTM](./images/logo.png)
-
-<p align="center">
-  <img src="images/logo.png" width="80">
-</p>
+# <p align="center">PlantPTM<img src="images/logo.png" width="80"></p>
 
 >This is a repository containing source code for paper titled "PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models".
 
