@@ -1,4 +1,4 @@
-# PlantPTM
+# ![PlantPTM](./images/logo.png)
 
 >This is a repository containing source code for paper titled "PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models".
 
@@ -37,12 +37,12 @@ The Prediction Decoder Module operates on the fused feature representation throu
 ## Descriptions of this repository
 
 1. codes
-   - [Dataset.py]: 
-   - [Generate_PLM_embeddings.py]: 
-   - [Metrics.py]: 
-   - [Model.py]: 
-   - [PlantPTM.py]: 
-   - [Predict.py]: 
+   - [Dataset.py]: dataset preparation and processing
+   - [Generate_PLM_embeddings.py]: generation of full-length protein features
+   - [Metrics.py]: validation metrics and additional utils
+   - [Model.py]: PyTorch-version PlantPTM model
+   - [PlantPTM.py]: for PlantPTM training
+   - [Predict.py]: for predicting PTMs using PlantPTM
    - [Threshold.py]: 
 
 3. data
@@ -52,7 +52,7 @@ The Prediction Decoder Module operates on the fused feature representation throu
 4. model
    - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
     
-5. case study
+5. case study on GPA1
    - [case study]
 
 ## Citation
