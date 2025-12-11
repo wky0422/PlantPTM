@@ -1,4 +1,4 @@
-# <p align="center">PlantPTM<img src="images/logo.png" width="25"></p>
+# <p align="center"><img src="images/logo.png" width="50"></p>
 
 >This is a repository containing source code for paper titled "PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models".
 
