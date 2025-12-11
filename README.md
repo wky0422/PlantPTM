@@ -37,13 +37,13 @@ The Prediction Decoder Module operates on the fused feature representation throu
 ## Descriptions of this repository
 
 1. codes
-   - [Dataset.py]: dataset preparation and processing
-   - [Generate_PLM_embeddings.py]: generation of full-length protein features
-   - [Metrics.py]: validation metrics and additional utils
-   - [Model.py]: PyTorch-version PlantPTM model
-   - [PlantPTM.py]: for PlantPTM training
-   - [Predict.py]: for predicting PTMs using PlantPTM
-   - [Threshold.py]: for predicting using PlantPTM with different model thresholds
+   - [Dataset.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Dataset.py): dataset preparation and processing
+   - [Generate_PLM_embeddings.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Generate_PLM_embeddings.py): generation of full-length protein features
+   - [Metrics.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Metrics.py): validation metrics and additional utils
+   - [Model.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Model.py): PyTorch-version PlantPTM model
+   - [PlantPTM.py](https://github.com/wky0422/PlantPTM/blob/main/codes/PlantPTM.py): for PlantPTM training
+   - [Predict.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Predict.py): for predicting PTMs using PlantPTM
+   - [Threshold.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Threshold.py): for predicting using PlantPTM with different model thresholds
 
 3. data
    - [fasta]: PTMs dataset clustered with 30% identity
@@ -54,7 +54,8 @@ The Prediction Decoder Module operates on the fused feature representation throu
     
 5. case study on GPA1
 
-We predicted all potential pho sites of G α (GPA1) in Arabidopsis G protein using PlantPTM, and further utilized AlphaFold3 to perform structural predictions for Gα-Gβ-Gγ based on experimentally-verified phosphorylation sites in the Gα subunit, displaying the C-terminal domain of all potential phosphorylation sites.
+   - [case study](https://github.com/wky0422/PlantPTM/tree/main/case_study): We predicted all potential pho sites of G α (GPA1) in Arabidopsis G protein using PlantPTM, and further utilized AlphaFold3 to perform structural predictions for Gα-Gβ-Gγ based on experimentally-verified phosphorylation sites in the Gα subunit, displaying the C-terminal domain of all potential phosphorylation sites.
+
 ![GPA1](./images/GPA1.png)
 
 ## Citation
