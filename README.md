@@ -43,7 +43,7 @@ The Prediction Decoder Module operates on the fused feature representation throu
    - [Model.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Model.py): PyTorch-version PlantPTM model
    - [PlantPTM.py](https://github.com/wky0422/PlantPTM/blob/main/codes/PlantPTM.py): for PlantPTM training
    - [Predict.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Predict.py): for predicting PTMs using PlantPTM
-   - [Threshold.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Threshold.py): for predicting using PlantPTM with different model thresholds
+   - [Threshold.txt](https://github.com/wky0422/PlantPTM/blob/main/codes/Threshold.txt): for predicting using PlantPTM with different model thresholds
 
 3. data
    - [fasta]: PTMs dataset clustered with 30% identity
