@@ -41,11 +41,27 @@ Using the following commands to create your own conda environment:
 First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html) or [miniconda](https://docs.anaconda.com/free/miniconda/) installed in your machine  using command `which conda` (for Linux).
 
 
-#### Step1
+#### Step1 Preparation for blast and ProtBert
 
-#### Step2
+1. Please go to blast([link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) | [guide](https://ftp.ncbi.nlm.nih.gov/pub/factsheets/HowTo_BLASTGuide.pdf)) for local deployment;
+2. Please go to ProtBert([link](https://huggingface.co/Rostlab/prot_bert) | [guide](https://github.com/agemagician/ProtTrans)) for local deployment.
 
-#### Step3
+
+#### Step2 Construct the uniref50 database and generate PSSM features
+
+1. Please go to [UniPort](https://www.uniprot.org/) to download the [uniref50 database](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/): `uniref50.fasta.gz` 
+2. Local construction of uniref50 database:
+   ```sh
+   gunzip uniref50.fasta.gz
+   makeblastdb -in uniref50.fasta -dbtype prot -parse_seqids -out uniref50
+   ```
+3. You can use the [provided PSSM features](https://github.com/wky0422/PlantPTM/tree/main/data/pssm) or regenerate using the following methods：
+   ```sh
+   psiblast -query input.fasta -db uniref50 -num_iterations 3 -out_ascii_pssm output.pssm
+   ```
+
+#### Step3 
+
 
 ## Descriptions of this repository
 
