@@ -60,8 +60,56 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
    psiblast -query input.fasta -db uniref50 -num_iterations 3 -out_ascii_pssm output.pssm
    ```
 
-#### Step3 
+#### Step3 Conda environment required for PlantPTM
 
+1. The environment required for deploying PlantPTM：
+   ```sh
+   conda create -n PlantPTM python==3.10 && conda activate SLAM
+   pip install numpy pandas biopython transformers scikit-learn matplotlib seaborn tqdm
+   ```
+2. You can install via Anaconda:
+
+   ```sh
+   conda install pytorch==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+   pip install torch_geometric
+   conda install pyg=*=*cu* -c pyg
+   ```
+
+   Or install by wheels:
+
+   ```sh
+   pip install torch==2.4.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+   pip install torch_geometric
+   pip install torch_scatter torch_cluster --no-index -f https://data.pyg.org/whl/torch-2.4.1+cu121.html
+   ```
+
+   If you are running on a CPU-only machine, it is recommended to install the CPU version of these packages using following commands:
+
+   ```sh
+   pip install torch==2.4.1
+   pip install torch_geometric
+   pip install torch_scatter torch_cluster -f https://data.pyg.org/whl/torch-2.4.1+cpu.html
+   ```
+
+   Finally, check the installations by:
+
+   ```python
+   python -c "import torch; print(torch.cuda.is_available())"	# Should be True
+   python -c "import torch; print(torch.cuda.device_count())"	# Should be > 0
+   python -c "import torch; print(torch.__version__);print(torch.version.cuda)"
+   ```
+
+   For more information, please refer to the official documentation of [PyTorch ](https://pytorch.org/get-started/locally/)and [PyG](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html).
+
+#### Alternative
+
+You can simply  can use this [`requirements.txt`](https://github.com/wky0422/PlantPTM/blob/main/requirements.txt) file to install all the dependencies.
+
+```sh
+pip install -r requirements.txt
+```
+
+You can read more in [Virtualenv and pip Basics](http://jonathanchu.is/posts/virtualenv-and-pip-basics/), and the official [Requirements File Format](https://pip.pypa.io/en/stable/cli/pip_install/) documentation.
 
 ## Descriptions of this repository
 
