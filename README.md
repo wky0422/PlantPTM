@@ -103,13 +103,15 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 
 ☆   **Alternative**
    
-<p style="text-indent:2em">You can simply  can use this [`requirements.txt`](https://github.com/wky0422/PlantPTM/blob/main/requirements.txt) file to install all the dependencies.
+<p style="text-indent:2em">
+   You can simply  can use this [`requirements.txt`](https://github.com/wky0422/PlantPTM/blob/main/requirements.txt) file to install all the dependencies.
 
-<p style="text-indent:2em">```sh
-<p style="text-indent:2em">pip install -r requirements.txt
-<p style="text-indent:2em">```
-
-<p style="text-indent:2em">You can read more in [Virtualenv and pip Basics](http://jonathanchu.is/posts/virtualenv-and-pip-basics/), and the official [Requirements File Format](https://pip.pypa.io/en/stable/cli/pip_install/) documentation.
+   ```sh
+   pip install -r requirements.txt
+   ```
+   
+   You can read more in [Virtualenv and pip Basics](http://jonathanchu.is/posts/virtualenv-and-pip-basics/), and the official [Requirements File Format](https://pip.pypa.io/en/stable/cli/pip_install/) documentation.
+</p>
 
 ## Descriptions of this repository
 
