@@ -153,7 +153,7 @@ or
 BibTeX entry:
 
 ```bibtex
-@article{Wang,
+@article{Wang2025PlantPTM,
 title = {PlantPTM: Accurate prediction of diverse PTM sites in plant with multi-view deep learning and protein language models},
 journal = {*bioRxiv.org*},
 volume = {×},
