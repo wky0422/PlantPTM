@@ -28,6 +28,19 @@ The Prediction Decoder Module operates on the fused feature representation throu
 
 ### Requirements
 
+Python version: >=`3.8`, < `3.12` (recommended: `3.10`)
+
+Several common packages are used in this project.
+
+1. For data processing: python built-in packages such as `re` and `Biopython`;
+2. For deep learning model implementation: `PyTorch 2.4.1 + cu121` for deep neural networks, `transformers 4.19.2` for pre-trained models;
+3. For model evaluations and result plots:`scikit-learn` and `matplotlib`.
+
+Using the following commands to create your own conda environment:
+
+First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html) or [miniconda](https://docs.anaconda.com/free/miniconda/) installed in your machine  using command `which conda` (for Linux).
+
+
 #### Step1
 
 #### Step2
