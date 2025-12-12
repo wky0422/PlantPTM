@@ -43,8 +43,8 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 
 #### Step1 Preparation for blast and ProtBert
 
-1. Please go to blast([link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) | [guide](https://ftp.ncbi.nlm.nih.gov/pub/factsheets/HowTo_BLASTGuide.pdf)) for local deployment;
-2. Please go to ProtBert([link](https://huggingface.co/Rostlab/prot_bert) | [guide](https://github.com/agemagician/ProtTrans)) for local deployment.
+1. Please go to blast ([link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) | [guide](https://ftp.ncbi.nlm.nih.gov/pub/factsheets/HowTo_BLASTGuide.pdf)) for local deployment;
+2. Please go to ProtBert ([link](https://huggingface.co/Rostlab/prot_bert) | [guide](https://github.com/agemagician/ProtTrans)) for local deployment.
 
 
 #### Step2 Construct the uniref50 database and generate PSSM features
