@@ -101,8 +101,8 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 
    For more information, please refer to the official documentation of [PyTorch ](https://pytorch.org/get-started/locally/)and [PyG](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html).
 
-☆ **Alternative**
-
+☆   **Alternative**
+   
    You can simply  can use this [`requirements.txt`](https://github.com/wky0422/PlantPTM/blob/main/requirements.txt) file to install all the dependencies.
 
    ```sh
