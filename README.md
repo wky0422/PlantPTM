@@ -44,17 +44,20 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 #### Step1 Preparation for blast and ProtBert
 
 1. Please go to blast ( [link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) | [guide](https://ftp.ncbi.nlm.nih.gov/pub/factsheets/HowTo_BLASTGuide.pdf) ) for local deployment;
-2. Please go to ProtBert ( [link](https://huggingface.co/Rostlab/prot_bert) | [guide](https://github.com/agemagician/ProtTrans) ) for local deployment.
 
+2. Please go to ProtBert ( [link](https://huggingface.co/Rostlab/prot_bert) | [guide](https://github.com/agemagician/ProtTrans) ) for local deployment.
 
 #### Step2 Construct the uniref50 database and generate PSSM features
 
 1. Please go to [UniPort](https://www.uniprot.org/) to download the [uniref50 database](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/): `uniref50.fasta.gz` 
+
 2. Local construction of uniref50 database:
+
    ```sh
    gunzip uniref50.fasta.gz
    makeblastdb -in uniref50.fasta -dbtype prot -parse_seqids -out uniref50
    ```
+   
 3. You can use the [provided PSSM features](https://github.com/wky0422/PlantPTM/tree/main/data/pssm) or regenerate using the following methods：
    ```sh
    psiblast -query input.fasta -db uniref50 -num_iterations 3 -out_ascii_pssm output.pssm
@@ -63,10 +66,12 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 #### Step3 Conda environment required for PlantPTM
 
 1. The environment required for deploying PlantPTM：
+
    ```sh
    conda create -n PlantPTM python==3.10 && conda activate SLAM
    pip install numpy pandas biopython transformers scikit-learn matplotlib seaborn tqdm
    ```
+
 2. You can install via Anaconda:
 
    ```sh
@@ -122,14 +127,14 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
    - [Predict.py](https://github.com/wky0422/PlantPTM/blob/main/codes/Predict.py): for predicting PTMs using PlantPTM
    - [Threshold.txt](https://github.com/wky0422/PlantPTM/blob/main/codes/Threshold.txt): for predicting using PlantPTM with different model thresholds
 
-3. data
+2. data
    - [fasta](https://github.com/wky0422/PlantPTM/tree/main/data/fasta): PTMs dataset clustered with 30% identity
    - [pssm](https://github.com/wky0422/PlantPTM/tree/main/data/pssm): compressed file for storing PSSM feature files corresponding to each protein
 
-4. model
+3. model
    - Please download the pickled models from [PlantPTM server](https://ai4bio.online/PlantPTM/download/).
     
-5. case study on GPA1
+4. case study on GPA1
 
    - [case study](https://github.com/wky0422/PlantPTM/tree/main/case_study): We predicted all potential pho sites of G α (GPA1) in Arabidopsis G protein using PlantPTM, and further utilized AlphaFold3 to perform structural predictions for Gα-Gβ-Gγ based on experimentally-verified phosphorylation sites in the Gα subunit, displaying the C-terminal domain of all potential phosphorylation sites.
 
