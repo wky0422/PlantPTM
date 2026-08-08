@@ -142,7 +142,7 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 
 ## Citation
 
-If you find PlantPTM helpful in your study, please kindly cite the following [paper ]():
+If you find PlantPTM helpful in your study, please kindly cite the following [paper ](https://doi.org/10.1016/j.molp.2026.08.002):
 
 *[APA]*
 
