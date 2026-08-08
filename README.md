@@ -142,11 +142,11 @@ First make sure you have [conda](https://docs.conda.io/projects/conda/en/stable/
 
 ## Citation
 
-If you find PlantPTM helpful in your study, please kindly cite the following [paper ](https://doi.org/10.1016/j.molp.2026.08.002):
+If you find PlantPTM helpful in your study, please kindly cite the following [paper](https://doi.org/10.1016/j.molp.2026.08.002):
 
 *[APA]*
 
-Dou, G., Wang, K., Qin, Z., Zhang, M., Zhang, W., Miao, C., Li, J., Chen, Z. (2026). PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants. *Molecular Plant*, ×, ×. doi:10.1016/j.molp.2026.08.002
+Dou, G., Wang, K., Qin, Z., Zhang, M., Zhang, W., Miao, C., Li, J., Chen, Z. (2026). PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants. *Molecular Plant*, ×, ×. doi:[10.1016/j.molp.2026.08.002](https://doi.org/10.1016/j.molp.2026.08.002)
 
 or
 
@@ -161,7 +161,7 @@ pages = {×},
 year = {2026},
 issn = {1674-2052},
 doi = {10.1016/j.molp.2026.08.002},
-url = {https://doi.org/10.1016/j.molp.2026.08.002},
+url = {[https://doi.org/10.1016/j.molp.2026.08.002](https://doi.org/10.1016/j.molp.2026.08.002)},
 author = {Gensheng Dou, Kaiyuan Wang, Zhaohui Qin, Min Zhang, Wentian Zhang, Chunbo Miao, Junzhou Li, and Zhen Chen},
 keywords = {PTMs; plant; deep learning; protein language model; evolutionary information},
 abstract = {Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.}
